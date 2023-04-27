@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Person {
+	Scanner sc = new Scanner(System.in);
+	private String name;
+	private int age;
+	private String city;
+
+	public void setName(String n) {
+		name = n;
+	}
+
+	public void setCity(String c) {
+		city = c;
+	}
+
+	public void setAge(int a) {
+		age = a;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void display() {
+
+		System.out.println("Name:" + name + " age:" + age + " city:" + city);
+	}
+}
