@@ -54,7 +54,7 @@ public class Account {
 			String accountHolderName = sc.nextLine();
 			System.out.print("Initial balance: ");
 			int balance = sc.nextInt();
-			sc.nextLine(); // consume the newline character
+			sc.nextLine(); // consume the newline charactr
 
 			accounts[i] = new Account(accountNumber, accountHolderName, balance);
 		}
